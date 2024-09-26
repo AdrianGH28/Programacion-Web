@@ -1,0 +1,58 @@
+<!--Indica que el documento utiliza html5-->
+<!DOCTYPE html>
+<!--Indica el lenguaje de nuestra pagina-->
+<html lang="en">
+<!--Nos permite ingresar metadatos-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="principal.css">
+</head>
+<!--Indica lo que estara dentro del body/cuerpo de la pagina-->
+<body>
+<!--Crea un div con la clase calculator-->
+  <div class="calculator">
+    <
+    <input type="text" id="display" class="calculator-screen" value="" disabled>
+    <div class="calculator-buttons">
+
+        <button class="button" onclick="clearDisplay()">C</button>
+        <button class="button" onclick="deleteLast()">DEL</button>
+        <button class="button" onclick="appendToDisplay('/')">/</button>
+        <button class="button" onclick="appendToDisplay('*')">*</button>
+
+
+        <button class="button" onclick="appendToDisplay('7')">7</button>
+        <button class="button" onclick="appendToDisplay('8')">8</button>
+        <button class="button" onclick="appendToDisplay('9')">9</button>
+        <button class="button" onclick="appendToDisplay('-')">-</button>
+
+        <button class="button" onclick="appendToDisplay('4')">4</button>
+        <button class="button" onclick="appendToDisplay('5')">5</button>
+        <button class="button" onclick="appendToDisplay('6')">6</button>
+        <button class="button" onclick="appendToDisplay('+')">+</button>
+
+
+        <button class="button" onclick="appendToDisplay('1')">1</button>
+        <button class="button" onclick="appendToDisplay('2')">2</button>
+        <button class="button" onclick="appendToDisplay('3')">3</button>
+        <button class="button equal-button" onclick="Calculateresult()">=</button>
+
+        <button class="button" onclick="appendToDisplay('0')">0</button>
+        <button class="button" onclick="appendToDisplay('.')">.</button>
+
+
+        
+
+
+
+    </div>
+  </div>
+
+
+
+
+    <script src="principal.js"></script> 
+</body>
+</html>
